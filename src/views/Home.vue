@@ -1,8 +1,8 @@
 <template>
-  <div class="flex-row align-items-center">
+  <div class="app flex-row align-items-center">
     <div class="container">
       <b-row class="justify-content-center">
-        <b-col>
+        <b-col class="md-8 text-center">
           Welcome to your Vue app starter
         </b-col>
       </b-row>
@@ -11,20 +11,14 @@
 </template>
 
 <script>
-
 export default {
-  name: 'home',
-  components: {
-  },
+  name: "home",
+  components: {},
   data() {
-    return {
-		}
+    return {};
   },
-  created() {
-  },
-  computed: {
-  },
-  methods: {
-  }
-}
+  created() {},
+  computed: {},
+  methods: {}
+};
 </script>
