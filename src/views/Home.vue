@@ -1,10 +1,12 @@
 <template>
-  <div class="animated fadeIn">
-    <b-row>
-      <b-col>
-        Welcome to your Vue app starter...
-      </b-col>
-    </b-row>
+  <div class="flex-row align-items-center">
+    <div class="container">
+      <b-row class="justify-content-center">
+        <b-col>
+          Welcome to your Vue app starter
+        </b-col>
+      </b-row>
+    </div>
   </div>
 </template>
 
